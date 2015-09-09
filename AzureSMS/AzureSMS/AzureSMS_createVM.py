@@ -1,4 +1,4 @@
-from azure import *
+﻿from azure import *
 from azure.servicemanagement import *
 
 
@@ -10,19 +10,19 @@ sms = ServiceManagementService(subscription_id,
                                'management.core.chinacloudapi.cn')
 
 
-name = 'zymDS11'
+name = 'zymservice'
 
 #Set the location
 sms.create_hosted_service(service_name=name,
     label=name,
-    location='China East')
+    location='China North')
 
 # Name of an os image as returned by list_os_images
 image_name = '55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20150726-zh.cn-127GB.vhd'
 
 # Destination storage account container/blob where the VM disk
 # will be created
-media_link = 'https://zymnorth.blob.core.chinacloudapi.cn/vhds/test.vhd'
+media_link = 'https://zymnorth.blob.core.chinacloudapi.cn/vhds/zymservice.vhd'
 
 # Linux VM configuration, you can use WindowsConfigurationSet
 # for a Windows VM instead
