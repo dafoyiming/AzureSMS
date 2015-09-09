@@ -25,11 +25,13 @@
     <Compile Include="AzureSMS_createVM.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="AzureSMS_get_hosted_service_properties.py" />
     <Compile Include="AzureSMS_listimage.py" />
     <Compile Include="AzureSMS_listlocation.py" />
     <Compile Include="AzureSMS_listosfamliy.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="AzureSMS_list_subscription_operations.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
