@@ -8,7 +8,7 @@ sms = ServiceManagementService(subscription_id,
                                certificate_path,
                                'management.core.chinacloudapi.cn')
 
-properties = sms.get_hosted_service_properties('zymservice')
+properties = sms.get_hosted_service_properties('zymwats')
 
 
 print properties.hosted_service_properties.status

@@ -5,13 +5,17 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>68e6148f-bedb-4ccc-81b2-dbd25305cdfb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AzureSMS_createVM.py</StartupFile>
+    <StartupFile>AzureSMS_get_hosted_service_properties.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>AzureSMS</Name>
     <RootNamespace>AzureSMS</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
